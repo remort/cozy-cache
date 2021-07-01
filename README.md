@@ -1,9 +1,9 @@
-# cozy-cache
-Timed, sized, with hit counts cache class and decorator.
+# timed-sized-cache
+Cache class and decorator, configurable by lifetime and maximum size, with hit counts.
 
 # example
 
-    from cache import CozyCache, timed_sized_cache
+    from cache import timed_sized_cache
 
     @timed_sized_cache()
     def fn(col1):
